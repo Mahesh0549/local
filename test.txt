@@ -1,0 +1,18 @@
+new table sales.scd.orders
+
+10 recirds
+
+
+dim_product
+
+product_id, product_name, product_category
+
+
+
+now changes in product_id and adding new reocord
+
+MERGE INTO dim_products as tag
+USING sales.scd.view_dimproducts as SRC
+ON tag.product_id=src.product_id
+when matched then update set *
+when not matched then insert *
