@@ -1,2 +1,2 @@
 Hello this is the 1st commit.
-this is second line
+This is the second
