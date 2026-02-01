@@ -1,2 +1,0 @@
-Hello this is the 1st commit.
-This is the second
