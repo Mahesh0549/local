@@ -15,4 +15,4 @@ jobs:
       runs-on: ubuntu-latest
       needs: job1_greetings
       steps:
-         -run: echo "I am from india"
+         - run: echo "I am from india"
