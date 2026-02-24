@@ -1,11 +1,6 @@
 
 name: first_workflow
-on: branch_dispatch
-on: push
-  branches:[ main ]
-on: branch_dispatch
-on:
-  schedule: " 0 9 * * 1"
+on: workflow_dispatch
 jobs:
    
    job1_greetings:
